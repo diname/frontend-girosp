@@ -1,7 +1,7 @@
 import { Input } from '../../components/ui/input'
 import { Label } from '../../components/ui/label'
 
-const UserLogin = () => {
+export const UserLogin = () => {
   return (
     <form action="" className="flex flex-col">
       <Label className="py-2">Email: </Label>
@@ -11,5 +11,3 @@ const UserLogin = () => {
     </form>
   )
 }
-
-export default UserLogin
