@@ -1,8 +1,10 @@
+import UserLogin from './pages/login'
+
 function App() {
   return (
-    <div className="">
-      <h1 className="">Hello World</h1>
-    </div>
+    <main className="bg-black text-white h-screen flex items-center justify-center ">
+      <UserLogin />
+    </main>
   )
 }
 
