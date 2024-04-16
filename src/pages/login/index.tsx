@@ -7,15 +7,14 @@ import { Button } from '@/components/ui/button'
 export const UserLogin = () => {
   return (
     <div className="bg-orange-400 min-w-full min-h-full flex flex-col justify-center items-center">
-      <div className=" min-w-96">
-        <img src={Logo} alt="Logo da empresa GiroSP" />
-        <h1 className="text-3xl mb-4">Login</h1>
-        <form action="" className="flex flex-col">
-          <Label className="py-2 ">Email: </Label>
-          <Input className="py-2 mb-4" placeholder="Digite seu email" />
-          <Label className="py-2">Senha: </Label>
-          <Input className="py-2" placeholder="Digite sua senha" />
-          <Button className="mt-5">Confirmar</Button>
+      <div className="p-5">
+        <img src={Logo} alt="Logo da empresa GiroSP" className="w-64 h-32" />
+        <form action="" className="flex flex-col md:w-96">
+          <Label className="py-2 w-full ">Email: </Label>
+          <Input className="py-2 mb-4 w-full" placeholder="Digite seu email" />
+          <Label className="py-2 w-full">Senha: </Label>
+          <Input className="py-2 w-full" placeholder="Digite sua senha" />
+          <Button className="mt-5 w-full">Confirmar</Button>
         </form>
       </div>
     </div>
