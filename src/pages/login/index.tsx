@@ -4,9 +4,9 @@ import { Input } from '../../components/ui/input'
 import { Label } from '../../components/ui/label'
 import { Button } from '@/components/ui/button'
 
-export const UserLogin = () => {
+export function UserLogin() {
   return (
-    <div className="bg-orange-400 min-w-full min-h-full flex flex-col justify-center items-center">
+    <div className="bg-orange-400 w-full h-full flex flex-col justify-center items-center">
       <div className="p-5 flex flex-col max-w-96">
         <img src={Logo} alt="Logo da empresa GiroSP" className="" />
         <form action="" className="flex flex-col md:w-96">
